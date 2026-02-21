@@ -258,12 +258,13 @@ function loadDefaults()
 		cohesionpos = {-8, 0.26, 16}
 	end
 	
-	URLD6KS = "file:///T:/Games/StrategyGames/Kriegsspiel/D6KS/"
-	imgFolder = URLD6KS .."units/img/"
-	objFolder = URLD6KS .. "units/obj/"
+	URL6DKS = "https://github.com/SlappyMoose/D6KS/"
+	
+	imgFolder = URLD6KS .. "assets/img/"
+	objFolder = URLD6KS .. "assets/obj/"
 	assetURLs = {
-		imgSmokeInf = imgFolder .. "/smoke_inf1.png",
-		imgSmokeArt = imgFolder .. "/smoke_art2b.png"
+		imgSmokeInf = imgFolder .. "smoke_inf1.png",
+		imgSmokeArt = imgFolder .. "smoke_art2b.png"
 	}
 	meshURLsInf = {
 		full = {
