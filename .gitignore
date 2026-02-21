@@ -1,10 +1,5 @@
-# Ignore everything
-*
+# Ignore everything in the root directory
+/*
 
-# But not these files...
-!.gitignore
-!assets
-# etc...
-
-# ...even if they are in subdirectories
-!*/
+# Except the folder you want to keep
+!/assets/
