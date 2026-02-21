@@ -1,2 +1,10 @@
-/units
-/working files
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!assets
+# etc...
+
+# ...even if they are in subdirectories
+!*/

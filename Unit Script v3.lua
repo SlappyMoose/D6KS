@@ -258,7 +258,7 @@ function loadDefaults()
 		cohesionpos = {-8, 0.26, 16}
 	end
 	
-	URL6DKS = "https://github.com/SlappyMoose/D6KS/"
+	URL6DKS = "https://github.com/SlappyMoose/D6KS/blob/main/"
 	
 	imgFolder = URLD6KS .. "assets/img/"
 	objFolder = URLD6KS .. "assets/obj/"
